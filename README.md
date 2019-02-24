@@ -13,14 +13,21 @@ The purpose of the project is simply to demonstrate (and learn) how to implement
 "A Coordinator is an object the encapsulates a lifecycle that is spread over a collection of view controllers. "So what is a coordinator? A coordinator is an object that bosses one or more view controllers around. Taking all of the driving logic out of your view controllers, and moving that stuff one layer up is gonna make your life a lot more awesome" 
 -- Soroush Khanlou
 
-### Table of Contents:
-- [Why use the Coordinator pattern?](#whyusethecoordinatorpattern?)
+## Table of Contents:
+- [Why use the Coordinator pattern?](#why)
+  - [Benefits](#why)
+  - [Normally ViewControllers are tasked with](#currentModel)
+- [Interaction with ViewControllers](#interaction)
+- [What is a Module?](#module)Architecture
+- [Architecture](#architecture)
+- [Inspired by](#inspiredby)
 - [Requirements](#requirements)
-- [Contributors](#contributors)
 - [Developer](#developer)
 - [License](#license)
 
-## Why use the Coordinator pattern?
+## Why use the Coordinator pattern? <a name="why"></a>
+
+#### Benefits: <a name="benefits"></a>
 
 - Clear navigation
 - Separation of concerns
@@ -33,7 +40,7 @@ The purpose of the project is simply to demonstrate (and learn) how to implement
 - Coordinators separate display-binding from side effects
 - Simplified testing
 
-## Normally ViewControllers are tasked with:
+#### Normally ViewControllers are tasked with: <a name="currentModel"></a>
 
 - Model-View Binding
 - Subview Allocation
@@ -44,16 +51,12 @@ The purpose of the project is simply to demonstrate (and learn) how to implement
 - User Input
 - Model Mutation
 
-## The purpose of the Coordinator:
-
-- Handle the navigation flow
-
-## How do ViewControllers communicate with the Coordinator:
+## Interaction with ViewControllers: <a name="interaction"></a>
 
 - Delegate Pattern
 - Callbacks
 
-## What is Module?
+## What is a Module? <a name="module"></a>
 
 A module is one architectural element of MVC, MVP, MVVM, and Viper architecture approaches. In the simplest case, for MVC, module is a controller and, for Viper, an Interactor-Presenter-View.
 
@@ -63,7 +66,7 @@ App uses a similar concept of MVVM + Coordinators pattern:
 
 - Coordinator instantiates view controllers, injects dependencies
 
-## Inspired by:
+## Inspired by: <a name="inspiredby"></a>
 
 Soroush Khanlou - [Migrating To Coordinators](http://khanlou.com/2017/04/migrating-to-coordinators/)
 
