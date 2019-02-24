@@ -58,13 +58,22 @@ The purpose of the project is simply to demonstrate (and learn) how to implement
 
 ## What is a Module? <a name="module"></a>
 
-A module is one architectural element of MVC, MVP, MVVM, and Viper architecture approaches. In the simplest case, for MVC, module is a controller and, for Viper, an Interactor-Presenter-View.
+For MVC, a module is a controller and, for Viper, an Interactor-Presenter-View.
+
+#### They should be:
+
+- Composable: they should be components where the sum of them become the modules. The modules can then be built internally, and have their own consistency.
+
+- Blackboxed: should expose a clear API that’s strategical, moreover, it should be completely reusable outside of any predefined architecture.
+
+- Testable: should be easy to test.
 
 ## Architecture
 
-App uses a similar concept of MVVM + Coordinators pattern:
+MVVM concepts + Coordinator pattern:
 
-- Coordinator instantiates view controllers, injects dependencies
+- Coordinator - instantiates view controllers, injects dependencies
+- Router - pushes views to a Navigation Controller
 
 ## Inspired by: <a name="inspiredby"></a>
 
