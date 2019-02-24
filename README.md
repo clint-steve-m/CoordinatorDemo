@@ -14,7 +14,7 @@ The purpose of the project is simply to demonstrate (and learn) how to implement
 -- Soroush Khanlou
 
 ### Table of Contents:
-- [Why use the Coordinator pattern?](#Why use the Coordinator pattern?)
+- [Why use the Coordinator pattern?](#whyusethecoordinatorpattern?)
 - [Requirements](#requirements)
 - [Contributors](#contributors)
 - [Developer](#developer)
