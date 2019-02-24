@@ -11,6 +11,7 @@ Coordinator Pattern + MVVM experiment, with storyboards.
 The purpose of the project is simply to demonstrate (and learn) how to implement the coordinator pattern in a new iOS project. 
 
 "A Coordinator is an object the encapsulates a lifecycle that is spread over a collection of view controllers. "So what is a coordinator? A coordinator is an object that bosses one or more view controllers around. Taking all of the driving logic out of your view controllers, and moving that stuff one layer up is gonna make your life a lot more awesome" 
+
 -- Soroush Khanlou
 
 ## Table of Contents:
