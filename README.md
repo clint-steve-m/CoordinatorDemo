@@ -68,8 +68,8 @@ App uses a similar concept of MVVM + Coordinators pattern:
 ### Requirements:
 
 * iOS 11.3+ / Mac OS X 10.11+ / tvOS 9.0+
-* Xcode 9.0+
-* Swift 3.0+
+* Xcode 10.1
+* Swift 4.2
 * iPhone with A9 processor or later
 
 ### Developer:
