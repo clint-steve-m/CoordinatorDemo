@@ -15,10 +15,10 @@ The purpose of the project is simply to demonstrate (and learn) how to implement
 
 ## Table of Contents:
 - [Why use the Coordinator pattern?](#why)
-  - [Benefits](#why)
+  - [Benefits](#benefits)
   - [Normally ViewControllers are tasked with](#currentModel)
 - [Interaction with ViewControllers](#interaction)
-- [What is a Module?](#module)Architecture
+- [What is a Module?](#module)
 - [Architecture](#architecture)
 - [Inspired by](#inspiredby)
 - [Requirements](#requirements)
